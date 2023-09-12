@@ -1,6 +1,23 @@
 const arr = [
   "Initialising Brute Force...",
   "Acquiring System Information...",
+  "System Info Fetched:",
+  " Card name: Intel(R) UHD Graphics 620",
+  "Manufacturer: Intel Corporation",
+  "Chip type: Intel(R) UHD Graphics Family",
+  "DAC type: Internal",
+  "Device Type: Full Device (POST)",
+  "Device Key: EnumPCIVEN_8086&DEV_5917&SUBSYS_396B17AA&REV_07",
+  "Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER]",
+  "Device Problem Code: No Problem",
+  "Driver Problem Code: Unknown",
+  "Display Memory: 4176 MB",
+  "Dedicated Memory: 128 MB",
+  "Shared Memory: 4048 MB",
+  "Current Mode: 1920 x 1080 (32 bit) (60Hz)",
+  "HDR Support: Not Supported",
+  "Display Topology: Internal",
+  "Rank Of Driver: 00CF0001",
   "Connecting to servers...",
   "Connecting to Local Host...",
   "Connecting to https://www.facebook.com",
@@ -23,7 +40,7 @@ const run = (message, delay, i) => {
     document.body.innerHTML += `${message} <br>`;
     if (i === arr.length - 1) {
       console.log("as");
-      //   window.location = "https://www.facebook.com";
+      window.location = "https://www.facebook.com";
     }
   }, delay);
 };
